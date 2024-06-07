@@ -435,6 +435,45 @@ section{
     resize: none;
 }
 
+.sponsorship .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
+
+.sponsorship .box-container .box{
+    padding: 2rem 0;
+    background: #000000;
+    border-radius: .5rem;
+    text-align: center;
+}
+
+.sponsorship .box-container .box:hover{
+    transform: scale(1.03);
+}
+
+.sponsorship .box-container .box .title{
+	font-family: 'Brush Script MT', cursive;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.sponsorship .box-container .box ul{
+    list-style-type: none;
+    padding: 1rem 0;
+}
+
+.sponsorship .box-container .box ul li{
+    font-size: 1.5rem;
+    color: #eee;
+    padding: 1rem 0;
+}
+
+.sponsorship .box-container .box ul li i{
+    color: var(--main-color);
+    padding-right: .5rem;
+}
+
 .footer{
     background: #111;
 }
